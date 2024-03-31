@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css" rel="stylesheet" />
+    <style>
+        
+        .nav-link {
+            margin-right: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.461);
+            border-radius: 2px;
+        }
+
+        @media (max-width:420px) {
+            .nav-link {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.731);
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Card Styles */
+
+        .card-sl {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .card-image img {
+            max-height: 100%;
+            max-width: 100%;
+            border-radius: 8px 8px 0px 0;
+        }
+
+        .card-action {
+            position: relative;
+            float: right;
+            margin-top: -25px;
+            margin-right: 20px;
+            z-index: 2;
+            color: #E26D5C;
+            background: #fff;
+            border-radius: 100%;
+            padding: 15px;
+            font-size: 15px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .card-action:hover {
+            color: #fff;
+            background: #E26D5C;
+            -webkit-animation: pulse 1.5s infinite;
+        }
+
+        .card-heading {
+            font-size: 18px;
+            font-weight: bold;
+            background: #fff;
+            padding: 10px 15px;
+        }
+
+        .card-text {
+            padding: 10px 15px;
+            background: #fff;
+            font-size: 14px;
+            color: #636262;
+        }
+
+        .card-button {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            width: 100%;
+            background-color: #1F487E;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .card-button:hover {
+            text-decoration: none;
+            background-color: #1D3461;
+            color: #fff;
+        }
+
+        @-webkit-keyframes pulse {
+            0% {
+                -moz-transform: scale(0.9);
+                -ms-transform: scale(0.9);
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+            }
+            70% {
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+            }
+            100% {
+                -moz-transform: scale(0.9);
+                -ms-transform: scale(0.9);
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+                box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+            }
+        }
+
+        .intern {
+            font-size: small;
+            color: #636262;
+            /*font family*/
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pop1">
+        <div class="modal fade" id="project1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> Movie-Recommender-system</h5>
+                        <button type="button" class="btn-close" data-mdb-ripple-init data-mdb-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <div class="card ">
+                            <div class="d-flex flex-column">
+                                <center>
+                                    <img class="img-fluid" src="./images/machine1.jpeg" style="width: 15rem;" alt="">
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <div class="card col-10">
+                            <p class="card-title px-3 mt-2 text-black"> Role: <br><strong>Team Leader</strong></p>
+                            <p class="card-title px-3 mt-2 text-black"> Tech Stack: <br><strong>Python,MySQL,NLP,Model Training</strong></p>
+                            <p class="card-title px-3 mt-2 text-black"> Description: <br>
+
+
+
+
+
+
+                            </p>
+                            <a href="https://github.com/hemalathasadula999/Movie--Recommender-system" class="btn btn-success text-center"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>&nbsp GitHub</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-mdb-ripple-init data-mdb-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pop2">
+        <div class="modal fade" id="project2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">House Price Prediction</h5>
+                        <button type="button" class="btn-close" data-mdb-ripple-init data-mdb-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <div class="card ">
+                            <div class="d-flex flex-column">
+                                <center>
+                                    <img class="img-fluid" src="./images/Default_house_price_prediction_3.jpg" style="width: 15rem;" alt="">
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <div class="card col-10">
+                            <p class="card-title px-3 mt-2 text-black"> Role: <br><strong>Team Leader</strong></p>
+                            <p class="card-title px-3 mt-2 text-black"> Tech Stack: <br><strong>Python,dataset,model traing</strong></p>
+                            <p class="card-title px-3 mt-2 text-black"> Description: <br>A house price prediction system utilizes machine learning to analyze property features and historical sales data, providing accurate price estimations. It addresses challenges such as data variability and incorporates factors like location, size, amenities, and market trends for precise predictions. Evaluation metrics and model optimizations ensure the system's reliability and efficiency in delivering accurate property valuations.
+
+
+
+
+
+
+                            </p>
+                            <a href="https://github.com/hemalathasadula999/House-Prediction" class="btn btn-success text-center"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>&nbsp GitHub</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-mdb-ripple-init data-mdb-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pop3">
+        <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">currency Currency_convertor</h5>
+                        <button type="button" class="btn-close" data-mdb-ripple-init data-mdb-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <div class="card ">
+                            <div class="d-flex flex-column">
+                                <center>
+                                    <img class="img-fluid" src="./images/Default_currency_converter_2.jpg" style="width: 15rem;" alt="">
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <div class="card col-10">
+                            <p class="card-title px-3 mt-2 text-black"> Role: <br><strong>Team Leader</strong></p>
+                            <p class="card-title px-3 mt-2 text-black"> Tech Stack: <br><strong>Python,Django,MySQL, HTML, CSS, Bootstrap</strong></p>
+                            <p class="card-title px-3 mt-2 text-black"> Description: <br>The app includes features like customizable currency pairs, historical rate tracking, and intuitive navigation for seamless user experience. Evaluation of API response times and user feedback ensures optimal performance and reliability of currency conversions.</p>
+                            <a href="https://github.com/hemalathasadula999/codsoftproject" class="btn btn-success text-center"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>&nbsp GitHub</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-mdb-ripple-init data-mdb-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary" style="background: rgba(0, 0, 0, 0.425);">
+        <nav data-mdb-navbar-init class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span>
+                                    <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                                </span> &nbsp INTRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span>
+                                    <i class="fa-solid fa-address-card" style="color: #ffffff;"></i>
+                                        </span> &nbsp ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#education"><span>
+                                <i class="fa-solid fa-school" style="color: #ffffff;"></i>
+                            </span> &nbsp EDUCATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#skills"><span>
+                                <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                        </span> &nbsp SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#certifications">
+                                <span>
+                                    <i class="fa-solid fa-certificate" style="color: #ffffff;"></i>
+                            </span> &nbsp CERTIFICATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#internships"><span>
+                                <i class="fa-solid fa-briefcase" style="color: #ffffff;"></i>
+                        </span> &nbsp INTERNSHIPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#projects"><span>
+                                <i class="fa-solid fa-laptop" style="color: #ffffff;"></i>
+                        </span> &nbsp PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact"><span>
+                                <i class="fa-solid fa-address-book" style="color: #ffffff;"></i>
+                            </span>&nbsp CONTACT</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+
+        <!--picture-->
+        <section id="aboutme" class="bg-black border-light mb-0 pb-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12 p-3 d-flex justify-content-center">
+                        <img class="img-fluid rounded-circle" src="./images/avatars/hi1.jpg" alt="" width="250px" height="50px" style="box-shadow: 5px 5px 5px white;">
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-light ">
+                        <p><strong>Hi, I'm</strong></p>
+                        <h1>Hemalatha Sadula</h1>
+                        <p>I am a full stack developer with hands-on in web development</p>
+                        <hr style="color: white; " />
+                        <p style="text-align: justify;">Full Stack Developer in the making, I am a 3rd-year BTech student specializing in Computer Science Engineering. Fueled by a passion for innovation and armed with a robust academic background, I bring proactive problem-solving skills,
+                            positioning myself as a dynamic contributor to the evolving realm of computer science.</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <br id="education">
+            <br>
+        </section>
+        <!--About me end-->
+
+        <!--Education-->
+        <section id="education" class="bg-white border-light pt-3">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 ">
+                    <div class="section-header text-center wow fadeInUp" data-wow-delay=".2s">
+                        <h3><span><i class="fa-solid fa-school" style="color: #000000;"></i>
+                         &nbspEducation</span></h3>
+                        <hr/>
+                    </div>
+                </div>
+            </div>
+            <center>
+                <div class="container pb row row-cols-lg-3 row-cols-1 g-lg-3 g-2 mb-0 pb-0">
+
+                    <div class="col">
+                        <div class="row align-items-center text-start p-2 p-sm-2">
+                            <div class="card mb-3 p-3" style="max-width: 540px;">
+                                <div class="row g-0 row-cols-2">
+                                    <div class="col-md-4 col-4 d-flex align-content-center justify-content-center">
+                                        <i class="fa-solid fa-user-graduate fa-2xl img-fluid rounded-start" style="color: #ff6600;"></i>
+                                        <!--img src="..." class="img-fluid rounded-start" alt="..."-->
+                                    </div>
+                                    <div class="col-md-8 col-8">
+                                        <div class="card-body p-0 px-3">
+                                            <h5 class="card-title">Bachelor of Technology</h5>
+                                            <p class="card-text mb-0">Computer Science and Engineering (CSE)</p>
+                                            <p class="card-text mb-0"><small class="text-muted">SVR Engineering College</small></p>
+                                            <p class="card-text pt-0"><small class="text-muted">Year of Passing: 2025</small></p>
+                                            <!--percentage-->
+                                            <small class="text-success"><strong>Percentage: 88 %</strong></small>
+                                            <!--p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row align-items-center text-start  p-2 p-2 p-sm-2">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 col-4 d-flex align-content-center justify-content-center">
+                                        <i class="fa-solid fa-school fa-2xl img-fluid rounded-start" style="color: #ff6600;"></i>
+                                    </div>
+                                    <div class="col-md-8 col-8">
+                                        <div class="card-body p-3 px-3">
+                                            <h5 class="card-title">Pre-University Course</h5>
+                                            <p class="card-text mb-0">Mathematics-Physics-Chemistry (MPC)</p>
+                                            <p class="card-text mb-0"><small class="text-muted">sri sai siddhartha junior college</small></p>
+                                            <p class="card-text pt-0"><small class="text-muted">Year of Passing: 2021</small></p>
+                                            <!--percentage-->
+                                            <small class="text-success"><strong>Percentage: 95 %</strong></small>
+                                            <!--p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p-->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col bg-transparent">
+                        <div class="row align-items-center text-start  p-2">
+                            <div class="card mb-3 p-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 col-4 d-flex align-content-center justify-content-center">
+                                        <i class="fa-solid fa-book-open fa-2xl img-fluid rounded-start" style="color: #ff6600;"></i>
+                                        <!--img src="..." class="" alt="..."-->
+                                    </div>
+                                    <div class="col-md-8 col-8">
+                                        <div class="card-body p-0 px-3">
+                                            <h5 class="card-title">School</h5>
+                                            <p class="card-text mb-0">Regular Secondary School <br> General</p>
+                                            <p class="card-text mb-0"><small class="text-muted">S.V.Chaithanya High school</small></p>
+                                            <p class="card-text pt-0"><small class="text-muted">Year of Passing: 2019</small></p>
+                                            <!--percentage-->
+                                            <small class="text-success"><strong>Percentage: 97 %</strong></small>
+                                            <!-- p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--div class="col-lg-4 col-md-12 col-sm-12">  
+                                <h5 class="text-center mt-3">Graduation</h5>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-sm-12 " style="border-left: 1px solid black;">
+
+                                <ul class="list-group list-group-flush">
+
+                                    <h5>Bachelor of Technology in Computer Science and Engineering (CSE)</h5>
+                                    <small>University of Delhi</small>
+                                    <br>
+                                    <small>GPA : 7.8 / 10</small>
+                                    <br>
+                                    <small>Duration : January 2018 - July 2022</small>
+                                    <br>
+                                    <small>CGPA : 8.6 / 10</small>
+                                    <br>
+                                </ul>
+
+                            </div-->
+                        </div>
+                    </div>
+                </div>
+            </center>
+            <br id="skills">
+            <br>
+        </section>
+        <!--Education End-->
+
+
+        <!--Skill start -->
+
+        <section class="pt-4 pb-0 mt-0 border-light border-2" style="background-color: rgb(0, 0, 0);">
+            <div class="container ">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 ">
+                        <div class="section-header text-center text-white  wow fadeInUp" data-wow-delay=".2s">
+                            <h3><span><i class="fa-solid fa-gear" style="color: #ffffff;"></i> &nbsp SKILLS</span></h3>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-lg-10 col-10 p-1">
+                    <div class="row row-cols-1 row-cols-lg-3 g-lg-5 g-2">
+                        <div class="col">
+
+                            <div class="card bg-black" style="box-shadow: rgba(0, 115, 255, 0.301) 0px 10px 20px;border:1px solid rgba(255, 255, 255, 0.32);">
+
+                                <div class="card-body">
+                                    <center>
+                                        <i class="fa-brands fa-python fa-2xl" style="color: #5c98ff;font-size: 5rem;"></i>
+                                    </center>
+                                    <h5 class="card-title text-center mt-3 text-white">Python</h5>
+                                    <p class="text-white">Proficiency</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+                                    </div>
+                                    <div class="">
+                                        <p class="mt-3 text-white" style="text-align: justify;">"I have a strong proficiency in Python, encompassing data manipulation, visualization, machine learning, and algorithm implementation."
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="card bg-black" style="box-shadow: rgba(0, 115, 255, 0.301) 0px 10px 20px;border:1px solid rgba(255, 255, 255, 0.32);">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <i class="fa-brands fa-java fa-2xl" style="font-size: 3.5rem;color: orangered;"></i>
+                                    </div>
+                                    <h5 class="card-title text-center mt-3 text-white">Java</h5>
+                                    <p class="text-white">Proficiency</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+                                    </div>
+                                    <div class="">
+                                        <p class="mt-3 text-white" style="text-align: justify;">"I have a solid foundation in Java, including application development, object-oriented programming principles, data structures, and software testing."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-black " style="box-shadow: rgba(0, 115, 255, 0.301) 0px 10px 20px;border:1px solid rgba(255, 255, 255, 0.32);">
+                                <div class="card-body">
+                                    <center>
+                                        <img src="images/aiml1-removebg-preview.png" width="100px" height="80px"/>
+                                    </center>
+                                    <h5 class="card-title text-center mt-3 text-white">AI-ML</h5>
+                                    <p class="text-white">Proficiency</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+                                    </div>
+                                    <div class="">
+                                        <p class="mt-3 text-white" style="text-align: justify;">"I have knowledge in AI and machine learning, including tasks like data preprocessing, model training, evaluation, and deployment."
+
+
+
+
+
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card bg-black" style="box-shadow: rgba(0, 115, 255, 0.301) 0px 10px 20px;border:1px solid rgba(255, 255, 255, 0.32);">
+
+                                <div class="card-body">
+                                    <center>
+                                        <img  src="./images/images-removebg-preview.png" height="55px" width="110px" alt="">
+                                    </center>
+                                    <h5 class="card-title text-center mt-3 text-white">Data Science</h5>
+                                    <p class="text-white">Proficiency</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+                                    </div>
+                                    <div class="">
+                                        <p class="mt-3 text-white" style="text-align: justify;">I have a strong proficiency in data science, including data analysis, machine learning, statistical modeling, data preprocessing, feature engineering
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="card bg-black" style="box-shadow: rgba(0, 115, 255, 0.301) 0px 10px 20px;border:1px solid rgba(255, 255, 255, 0.32);">
+                                <div class="card-body">
+                                    <center>
+                                        <img src="images/front-end-stack.png" width="100px" height="80px"/>
+                                    </center>
+                                    <h5 class="card-title text-center mt-3 text-white">Frontend development</h5>
+                                    <p class="text-white">Proficiency</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+                                    </div>
+                                    <div class="">
+                                        <p class="mt-3 text-white" style="text-align: justify;">
+                                            "I am well-versed in frontend development, covering HTML, CSS, JavaScript, and using Django for building interactive user interfaces."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-black " style="box-shadow: rgba(0, 115, 255, 0.301) 0px 10px 20px;border:1px solid rgba(255, 255, 255, 0.32);">
+                                <div class="card-body">
+                                    <center>
+                                        
+                                    </center>
+                                    <h5 class="card-title text-center mt-3 text-white">Cloud Computing</h5>
+                                    <center>\<img src="images/cloud-computing-concept_1284-4091.avif" width="110px" height="80px" /></center>
+                                    <p class="text-white">Proficiency</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+                                    </div>
+                                    <div class="">
+                                        <p class="mt-3 text-white" style="text-align: justify;">"I have experience in cloud computing, including working with platforms like AWS, Azure, Google Cloud for deploying and managing applications."
+
+
+
+
+
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <br id="certifications">
+            <br>
+        </section>
+        <!--skills end-->
+
+        <!--Certifications-->
+        <section class="certification section-padding bg-white mt-0 pt-4 pb-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 ">
+                        <div class="section-header text-center wow fadeInUp" data-wow-delay=".2s">
+                            <h3><span><i class="fa-solid fa-certificate" style="color: #000000;"></i> &nbsp CERTIFICATIONS</span></h3>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-lg-2 g-lg-3 g-2">
+                        <div class="col p-2">
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid rounded-circle p-2" src="./images/af.png" alt="" width="200px" height="auto" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <strong><p class="mt-3 mb-0">Microsoft Azure Fundatamentals</p></strong>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3" >
+                                <a href="https://drive.google.com/file/d/1rhW3HxjtmQOpqpKkqYh__PaF9oSTCkTD/view?usp=sharing" class="btn btn-success">Verify</a>
+                            </div>
+                        </div>
+                        <div class="col p-2">
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid rounded-circle p-2" src="./images/ai.png" alt="" width="200px" height="auto" style="box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.311);">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <strong><p class="mt-3 mb-0">Microsoft Azure AI Fundatamentals</p></strong>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="https://drive.google.com/file/d/1V00GktsXaBezwZiz4kbBl1rv_rr8P_Ms/view?usp=sharing" class="btn btn-success">Verify</a>
+                            </div>
+                        </div>
+                        <div class="col p-2">
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid rounded-circle p-2" src="./images/image.png" alt="" width="200px" height="auto" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <strong><p class="mt-3 mb-0">AWS Cloud Architect</p></strong>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3" >
+                                <a href="https://www.credly.com/badges/d40bf859-f80f-4650-bd22-8c7f089cd95e/linked_in_profile" class="btn btn-success">Verify</a>
+                            </div>
+                        </div>
+                        <div class="col p-2">
+                            <div class="d-flex justify-content-center">
+                                <img class="img-fluid rounded-circle p-2" src="./images/Screenshot 2024-03-31 174114.png" alt="" width="200px" height="auto" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <strong><p class="mt-3 mb-0">Process Mining Fundamentals</p></strong>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3" >
+                                <a href="https://www.credly.com/badges/416288e4-27e5-44b8-aad3-6a2f62b03902" class="btn btn-success">Verify</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br id="internships">
+            <br>
+        </section>
+        <!--Cerifications End-->
+        <!--INTERNSHIPS-->
+        <section class="internships section-padding bg-black pt-4 pb-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 ">
+                        <div class="section-header text-center text-white wow fadeInUp" data-wow-delay=".2s">
+                            <h3><span><i class="fa-solid fa-briefcase" style="color: #ffffff;"></i> &nbsp INTERNSHIPS</span></h3>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-lg-3 g-lg-3 g-2">
+                        <div class="col">
+                            <div class="d-flex  rounded" style="background: #1D3461;">
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-white" src="./images/AWS.jpeg" alt="" style="height: 100%;">
+                                </div>
+                                <div class="col-8">
+                                    <p class="px-3 text-white text-center"><strong>AWS CLOUD INTERN</strong></p>
+                                    <ul class="list-group list-group-light p-2">
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Organization</i>: <strong>AICTE</strong></li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Duration</i>: 3 Months</li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>status</i>: Completed</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex rounded" style="background: #1D3461;">
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-white" src="./images/process mimg.png" alt="" style="height: 100%;">
+                                </div>
+                                <div class="col-8">
+                                    <p class="px-3 text-white text-center"><strong>PROCESS MINING</strong></p>
+                                    <ul class="list-group list-group-light p-2">
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Organization</i>: <strong>eduskills</strong></li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Duration</i>: 3 Months</li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>status</i>: Completed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex rounded" style="background: #1D3461;">
+                                <div class="col-4">
+                                    <img class="img-fluid rounded" src="./imageS/Machine.jpeg" alt="" style="height: 100%;">
+                                </div>
+                                <div class="col-8">
+                                    <p class="px-3 text-white text-center"><strong>MACHINE LEARNING</strong></p>
+                                    <ul class="list-group list-group-light p-2">
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Organization</i>: <strong>Bharat Intern</strong></li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Duration</i>: 2 Months</li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>status</i>: Completed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex  rounded" style="background: #1D3461;">
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-white" src="./images/android.jpeg" alt="" style="height: 100%;">
+                                </div>
+                                <div class="col-8">
+                                    <p class="px-3 text-white text-center"><strong>ANDROID APP development</strong></p>
+                                    <ul class="list-group list-group-light p-2">
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Organization</i>: <strong>Codsoft</strong></li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>Duration</i>: 2 Months</li>
+                                        <li class="list-group-item px-3 border-0 p-0 intern text-white"><i>status</i>: Completed</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br id="projects">
+            <br>
+            <br>
+        </section>
+
+        <!--Projects-->
+        <section class="projects section-padding bg-white mt-0 pt-4 pb-0 mb-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 ">
+                        <div class="section-header text-center wow fadeInUp" data-wow-delay=".2s">
+                            <h3><span><i class="fa-solid fa-laptop" style="color: #000000;"></i> &nbsp PROJECTS</span></h3>
+                            <hr />
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <div class="d-lg-flex justify-content-center align-content-center">
+                        <div class="row mb-3">
+                            <div class="col-md-10">
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="./images/machine1.jpeg" class="img-fluid"  width="500px" height="500px"/>
+                                    </div>
+                                    <!--a class="card-action" href="#"><i class="fa-solid fa-1" style="color: #005eff;"></i></a-->
+                                    <div class="card-heading">
+                                        Movie-Recommender-system
+                                    </div>
+                                    <div class="card-text">
+                                        Introducing "FilmSync," a sophisticated machine learning-driven movie recommendation system designed to enhance your cinematic experience. With advanced algorithms analyzing your viewing habits and preferences, FilmSync offers personalized movie suggestions tailored to your unique taste. The system leverages advanced machine learning algorithms such as collaborative filtering, content-based filtering, and hybrid models to enhance recommendation accuracy, offering convenience and  accuracy .
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="https://github.com/hemalathasadula999/Movie--Recommender-system" class="btn btn-success"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>&nbsp GitHub</a>
+                                    </div>
+                                    <a href="#" type="button" data-mdb-ripple-init data-mdb-modal-init data-mdb-target="#project1" class="card-button"> Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-10">
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="./images/Default_house_price_prediction_3.jpg" class="img-fluid" />
+                                    </div>
+
+                                    <!--a class="card-action" href="#"><i class="fa-solid fa-1" style="color: #005eff;"></i></a-->
+                                    <div class="card-heading">
+                                        house_price_prediction
+                                    </div>
+                                    <div class="card-text">
+                                       
+                                        "HomeValue AI employs advanced data preprocessing, feature selection, and ensemble learning techniques to ensure robustness and accuracy in house price predictions. Model explainability tools enhance transparency, while real-time updates through APIs keep information current. Its user-friendly interface offers interactive visualizations and trend analysis, empowering users with valuable insights for informed real estate decisions.House price prediction using machine learning involves analyzing property features, market trends.and estimate the house prices.
+
+
+
+
+
+
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="https://github.com/hemalathasadula999/House-Prediction" class="btn btn-success"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>&nbsp GitHub</a>
+                                    </div>
+                                    <a href="#" type="button" data-mdb-ripple-init data-mdb-modal-init data-mdb-target="#project2" class="card-button"> Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-10">
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="./images/Default_currency_converter_2.jpg" class="img-fluid" />
+                                    </div>
+
+                                    <!--a class="card-action" href="#"><i class="fa-solid fa-1" style="color: #005eff;"></i></a-->
+                                    <div class="card-heading">
+                                        Currency_convertor
+                                    </div>
+                                    <div class="card-text">
+                                        "Introducing CurrencyConvert Pro, an Android app developed using Java and XML for seamless currency conversion on-the-go. With a user-friendly interface, real-time exchange rates, and customizable currency pairs, CurrencyConvert Pro simplifies international transactions and financial planning. Experience convenience and accuracy with this powerful app, designed to meet your currency conversion needs effortlessly."It aims to streamline international transactions and financial management, offering unparalleled convenience and efficiency"
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="https://github.com/hemalathasadula999/codsoftproject" class="btn btn-success"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>&nbsp GitHub</a>
+                                    </div>
+                                    <a href="#" type="button" data-mdb-ripple-init data-mdb-modal-init data-mdb-target="#project3" class="card-button"> Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                        </div>
+                    </div>
+                </center>
+                <br id="contact">
+                <br>
+        </section>
+        <!--Projects End-->
+        <!--Contact Start-->
+        <section class="bg-black text-white pt-3 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <center>
+                            <h1 class="mb-4">Connect at</h1>
+                        </center>
+                        <center>
+                            <div class="mb-3">
+                                <a href="https://github.com/hemalathasadula999" class="btn btn-success w-50 mb-1"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i> &nbsp GitHub</a>
+                                <br>
+                                <a href="https://www.linkedin.com/in/hemalatha-sadula-6bb94525a" class="btn btn-primary w-50 mb-1"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i> &nbsp LinkedIn</a>
+                            </div>
+                        </center>
+
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <h1 class="mb-lg-5 mb-3">Contact</h1>
+                        <p>
+                            <i class="fa fa-map-marker"></i>
+                            <span>Address:</span>
+                            <span>Nandyal</span>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            <span>Mail:</span>
+                            <a class="text-decoration-none text-white" href="mailto:21am1a0511@svrec.ac.in">21am1a0511@svrec.ac.in</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <script src="https://kit.fontawesome.com/dedeab9b5a.js " crossorigin="anonymous "></script>
+
+        <!-- MDB Bootstrap JS and Popper.js -->
+        <!-- MDB -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.umd.min.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+</body>
+
+</html>
